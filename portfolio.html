@@ -5,28 +5,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 
 <body>
     <!-- Шапка сайта -->
-    <header>
-        <nav>
-            <a href="/index.html">
-                WebStudio
-            </a>
-
-            <ul>
-                <li><a href="/index.html">Студия</a></li>
-                <li><a href="/portfolio.html">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
+    <header class="header">
+        <nav class="header-navigation">
+            <a href="./index.html" class="link"><span class="span-web">Web</span><span class="span-studio">Studio</span></a>
+            <ul class="header-list list">
+                <li class="header-item"><a href="/index.html" class="header-link link">Студия</a></li>
+                <li class="header-item"><a href="/portfolio.html" class="header-link link">Портфолио</a></li>
+                <li class="header-item"><a href="" class="header-link link">Контакты</a></li>
             </ul>
-
         </nav>
-
-        <ul>
-            <li><a href="">info@devstudio.com</a></li>
-            <li><a href="">+38 096 111 11 11</a></li>
+        <ul class="header-tel list">
+            <li class="header-tel-item"><a href="" class="header-tel-link link">info@devstudio.com</a></li>
+            <li class="header-tel-item"><a href="" class="header-tel-link link">+38 096 111 11 11</a></li>
         </ul>
     </header>
 
@@ -34,22 +32,22 @@
     <main>
         <h1>portfolio</h1>
         <!-- button -->
-        <section>
-            <ul>
-                <li>
-                    <input type="button" value="Все">
+        <section class="portfolio-btn">
+            <ul class="btn-list">
+                <li class="btn-item">
+                    <input class="btn-text" type="button" value="Все">
                 </li>
-                <li>
-                    <input type="button" value="Веб-сайты">
+                <li class="btn-item">
+                    <input class="btn-text" type="button" value="Веб-сайты">
                 </li>
-                <li>
-                    <input type="button" value="Приложения">
+                <li class="btn-item">
+                    <input class="btn-text" type="button" value="Приложения">
                 </li>
-                <li>
-                    <input type="button" value="Дизайн">
+                <li class="btn-item">
+                    <input class="btn-text" type="button" value="Дизайн">
                 </li>
-                <li>
-                    <input type="button" value="Маркетинг">
+                <li class="btn-item">
+                    <input class="btn-text" type="button" value="Маркетинг">
                 </li>
             </ul>
         <!-- section project -->
@@ -100,12 +98,12 @@
 
     <!-- Футер -->
     <footer>
-        <a href="/index.html">WebStudio</a>
-        <address>
-            <ul>
-                <li><a href="">г. Киев, пр-т Леси Украинки, 26</a></li>
-                <li><a href="mailto:info@example.com">info@example.com</a></li>
-                <li><a href="tel:+380991111111">+38 099 111 11 11 </a></li>
+        <a href="./index.html" class="link"><span class="span-web">Web</span><span class="span-studio">Studio</span></a>
+        <address class="address">
+            <ul class="addres-list">
+                <li class="addres-item"><a href="" class="addres-link link">г. Киев, пр-т Леси Украинки, 26</a></li>
+                <li class="contact-item"><a href="mailto:info@example.com" class="contact-link link">info@example.com</a></li>
+                <li class="contact-item"><a href="tel:+380991111111" class="contact-link link">+38 099 111 11 11 </a></li>
             </ul>
         </address>
     </footer>

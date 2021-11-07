@@ -1,4 +1,198 @@
-body {
-  background: #ffffff;
+/* основной цвет заголовка #212121;*/
+/* цвет залоговка вторичный #FFFFFF */
+/* основной цыет текста #757575; */
+/* цвет фокус #2196F3; */
+/* цвет футер rgba(255, 255, 255, 0.6); */
+:root{
+    --main-title-color: #212121;
+    --second-title-color: #FFFFFF;
+    --first-text-color: #757575;
+    --second-text-color: rgba(255, 255, 255, 0.6);
+    --accent-color: #2196F3;
+    }
+body { font-family: "Roboto", sans-serif;
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
 }
 
+/*------------------ LOGO WEBSTUDIO--------------- */
+
+.span-web {
+font-family: Raleway;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+color: var(--accent-color);
+}
+.span-studio {
+font-family: Raleway;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+color: var(--main-title-color);
+}
+
+/*--------- Navigation------------- */
+
+.header-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.4;
+letter-spacing: 0.02em;
+color: var(--main-title-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+ont-weight: 500;
+font-size: 14px;
+line-height: 1.4;
+letter-spacing: 0.02em;
+color: var(--accent-color);
+}
+
+.header-tel-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--first-text-color);
+}
+.header-tel-link:hover,
+.header-tel-link:focus {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--accent-color)
+}
+
+/*-------------------- hero------------------------ */
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.14;
+letter-spacing: 0.06em;
+color: var(--second-title-color);
+}
+.hero-btn {
+background: var(--accent-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.9;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color:var(--second-title-color);
+}
+
+/* НАши преимущества- ABOUT */
+.about-title {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+color:var(--main-title-color);
+}
+
+.about-text {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--first-text-color);
+}
+
+/*--------------- Чем мы занимаемся-------------------- */
+.work-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--main-title-color);
+}
+
+/* -----наша команда ----team---------- */
+.team-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--main-title-color);
+}
+.team-title-second {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--main-title-color);
+}
+.team-text{
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--first-text-color);
+}
+
+/* --------------- footer------------------ */
+.address {
+background-color: #2F303A;
+}
+
+.addres-link{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--second-title-color);
+}
+.contact-link {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--second-text-color);
+}
+
+/* -------portfolio button------ */
+
+.btn-text {
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
+color:var(--main-title-color);
+}
+
+.btn-text:hover,
+.btn-text:focus {
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
+color: var(--second-title-color);
+}
