@@ -156,29 +156,31 @@ background-color: #2F303A;
 }
 
 .addres-link{
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
+font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--second-title-color);
 }
 .contact-link {
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
+font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--second-text-color);
 }
-
+.contact-link:hover,
+.contact-lin:focus{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--accent-color)
+}
+ 
 /* -------portfolio button------ */
 
 .btn-text {
-font-family: Roboto;
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
@@ -188,11 +190,25 @@ color:var(--main-title-color);
 
 .btn-text:hover,
 .btn-text:focus {
-font-family: Roboto;
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 letter-spacing: 0.03em;
 color: var(--second-title-color);
 }
+
+.project-title {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--main-title-color);
+}
+
+.project-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.9;
+letter-spacing: 0.03em;
+color: var(--first-text-color);
+} 
