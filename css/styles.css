@@ -18,6 +18,10 @@ body { font-family: "Roboto", sans-serif;
 .link {
     text-decoration: none;
 }
+.about-first-title,
+.portfolio-title{
+visibility: hidden;
+}
 
 /*------------------ LOGO WEBSTUDIO--------------- */
 
@@ -39,7 +43,9 @@ color: var(--main-title-color);
 }
 
 /*--------- Navigation------------- */
-
+.header{
+background-color: var(--second-title-color);
+}
 .header-link {
 font-weight: 500;
 font-size: 14px;
@@ -75,7 +81,7 @@ color: var(--accent-color)
 
 /*-------------------- hero------------------------ */
 .hero {
-    background-color: #2F303A;
+background-color: #2F303A;
 }
 
 .hero-title{
@@ -86,6 +92,7 @@ letter-spacing: 0.06em;
 color: var(--second-title-color);
 }
 .hero-btn {
+cursor: pointer;
 background: var(--accent-color);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
@@ -100,6 +107,9 @@ color:var(--second-title-color);
 }
 
 /* НАши преимущества- ABOUT */
+.about{
+    background-color:var(--second-title-color);
+}
 .about-title {
 font-weight: 700;
 font-size: 14px;
@@ -116,6 +126,9 @@ color: var(--first-text-color);
 }
 
 /*--------------- Чем мы занимаемся-------------------- */
+.work{
+    background-color:var(--second-title-color);
+}
 .work-title {
 font-weight: 700;
 font-size: 36px;
@@ -126,6 +139,9 @@ color: var(--main-title-color);
 }
 
 /* -----наша команда ----team---------- */
+.team{
+background-color: #F5F4FA;
+}
 .team-title {
 font-weight: 700;
 font-size: 36px;
@@ -156,6 +172,8 @@ background-color: #2F303A;
 }
 
 .addres-link{
+font-family: Roboto;
+font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -163,6 +181,8 @@ letter-spacing: 0.03em;
 color: var(--second-title-color);
 }
 .contact-link {
+font-family: Roboto;
+font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -170,7 +190,9 @@ letter-spacing: 0.03em;
 color: var(--second-text-color);
 }
 .contact-link:hover,
-.contact-lin:focus{
+.contact-link:focus{
+font-family: Roboto;
+font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -179,8 +201,8 @@ color: var(--accent-color)
 }
  
 /* -------portfolio button------ */
-
 .btn-text {
+cursor: pointer;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
@@ -190,6 +212,8 @@ color:var(--main-title-color);
 
 .btn-text:hover,
 .btn-text:focus {
+background-color: var(--accent-color);
+cursor: pointer;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
@@ -197,6 +221,7 @@ letter-spacing: 0.03em;
 color: var(--second-title-color);
 }
 
+/* !-- section project -- */
 .project-title {
 font-weight: 700;
 font-size: 18px;
