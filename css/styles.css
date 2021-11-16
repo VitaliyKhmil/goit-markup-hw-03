@@ -31,14 +31,14 @@ body { font-family: "Roboto", sans-serif;
 }
 .about-first-title,
 .portfolio-title{
-visibility: hidden;
+display: none;
 }
 .container{
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    }
+   }
 
 /*------------------ LOGO WEBSTUDIO--------------- */
 .header-logo{
@@ -70,10 +70,8 @@ display: inline block;
 
 /*--------- Navigation------------- */
 .header{
-background-color: var(--second-title-color);
-padding-top: 24px;
-padding-bottom: 25px;
-}
+    padding-bottom: 94px;
+    }
 .header-list, .header-tel, .header-navigation {
     display: flex; 
     align-items: center;
@@ -82,6 +80,10 @@ padding-bottom: 25px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: var(--second-title-color);
+padding-top: 24px;
+padding-bottom: 25px;
+border-bottom: 1px solid #ECECEC;
    }
 
 .header-item{
@@ -264,7 +266,7 @@ padding-top: 94px;
 /* -----наша команда ----team---------- */
 .team{
 background-color: #F5F4FA;
-margin-bottom: 94px;
+padding-bottom: 94px;
 }
 .team-list{
     display: flex;
@@ -359,6 +361,9 @@ color: var(--accent-color)
 }
  
 /* ------------portfolio-------- */
+.portfolio-btn{
+    padding-bottom: 94px;
+}
 .btn-list{
     display: flex;
     justify-content: center;
@@ -387,7 +392,6 @@ letter-spacing: 0.03em;
 color: var(--second-title-color);
 }
 
-/* !-- section project -- */
 .project-title {
 font-weight: 700;
 font-size: 18px;
@@ -416,6 +420,7 @@ padding-bottom: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: -30px;
 }
 
 .project-item{
