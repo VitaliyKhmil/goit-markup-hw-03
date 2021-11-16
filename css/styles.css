@@ -44,8 +44,10 @@ display: none;
 .header-logo{
     margin-right: 93px;
 }
+
 .span-web {
 font-family: Raleway;
+font-style: normal;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.2;
@@ -55,6 +57,7 @@ display: inline block;
 }
 .span-studio,.span-footer {
 font-family: Raleway;
+font-style: normal;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.2;
