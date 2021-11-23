@@ -162,7 +162,7 @@ background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
 url("../images/hero-br.jpg");
 background-size: cover;
 background-repeat: no-repeat;
-background-position: center;
+background-position: center center;
 padding: 200px 0;
 max-width: 1600px;
 margin: 0 auto;
@@ -440,23 +440,17 @@ padding: 60px 0;
 display: flex;
 justify-content: start;
 }
-.footer-container{
-    display: flex;
-align-items: baseline;
-flex-direction: row;
-}
-
-.footer__content{
+.container-footer{
     width: 300px;
-    margin-left: 0;  
-    margin-right: 0;
+    margin: 0 0; 
 }
 .container-social{
     width: 300px;
     margin-left: 70px;
 }
 .social-title{
-font-family: Roboto;
+     font-family: Roboto;
+font-style: normal;
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
@@ -504,8 +498,8 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--second-title-color);
 }
-.address{
-    padding-top: 20px;
+.footer-logo{
+    margin-bottom: 20px;   
 }
 .addres-item, .contact-item{
     padding-bottom: 9px;
