@@ -17,7 +17,7 @@
 </head>
        <body>
            <!-- Шапка сайта -->
-           <header class="header">
+           <header class="header-index">
              <div class="container header-container">
              <nav class="header-navigation">
                <a href="./index.html" class="link header-logo"><span class="span-web">Web</span><span class="span-studio">Studio</span></a>                            
@@ -31,14 +31,13 @@
               <ul class="header-tel list">
                 <li class="header-tel-item"><a href="mailto:info@example.com" class="header-tel-link link"
                   >
-                  <svg width="16" height="12" >
-                    <use href="./images/svg/icons.svg#icon-envelope"
-                    ></use>
+                  <svg class="icon-envelope"width="16" height="12">
+                    <use href="./images/svg/icons.svg#icon-envelope"></use>
                   </svg>
                   info@devstudio.com</a></li>
 
                 <li class="header-tel-item"><a href="tel:+380991111111" class="header-tel-link link">
-                  <svg class="icon-smartphone">
+                  <svg class="icon-smartphone"width="10" height="16">
                     <use href="./images/svg/icons.svg#icon-smartphone"></use>
                   </svg>
                   +38 096 111 11 11</a></li>
@@ -337,10 +336,9 @@
               </ul>                     
             </address>
            </div>
-           <div class="footer-title">
-             <p>присоединяйтесь</p>
-            </div>
-                      <ul class="social-footer-list">
+           <div class="container-social">
+             <p class="social-title">присоединяйтесь</p>             
+              <ul class="social-footer-list">
               <li class="social-footer-item list">
                 <a href="" class="social-footer-link">
                 <svg class="social-footer-icon" width="20" heigth="20">
@@ -370,6 +368,7 @@
                 </a>
               </li>
             </ul>
+          </div>
           </footer>
        </body>
       

@@ -76,6 +76,8 @@ display: inline block;
     display: flex; 
     align-items: center;
 }
+.header-portfolio{
+    padding-bottom: 94px;}
 .header-container{
     display: flex;
     align-items: center;
@@ -136,6 +138,13 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--accent-color)
+}
+
+.header-tel-link:hover .icon-envelope{
+    fill: var(--accent-color);
+}
+.header-tel-link:hover .icon-smartphone{
+    fill: var(--accent-color);
 }
 .header-tel li:last-child{
     margin-right: 0;
@@ -340,7 +349,7 @@ margin-bottom: 16px;
 .social-team-item{
     width: 44px;
     height: 44px;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 .social-team-item + .social-team-item{
     margin-left: 10px;
@@ -355,8 +364,17 @@ margin-bottom: 16px;
 }
 .social-team-icon{
     fill: #AFB1B8;
+    width: 20px;
+    height: 20px;
 }
-
+.social-team-link:focus,
+.social-team-link:hover{
+background-color: var(--accent-color);
+}
+.social-team-link:focus .social-team-icon,
+.social-team-link:hover .social-team-icon{
+    fill: var(--second-title-color);
+}
 
 /* ----------------client------------ */
 .client{
@@ -376,6 +394,8 @@ border-radius: 4px;
 }
 .client-icon{
    fill: #AFB1B8;
+   width: 100%;
+height: 100%;
 }
 .client-item + .client-item{
     margin-left: 30px;
@@ -387,6 +407,19 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
+.client-link:focus,
+.client-link:hover{
+background-color: var(--second-title-color);
+}
+.client-link:focus .client-icon,
+.client-link:hover .client-icon{
+    fill: var(--accent-color);
+}
+.client-item:focus,
+.client-item:hover{
+    border-color: var(--accent-color);
+}
+
 
 .client-title{
     text-align: center;
@@ -405,18 +438,18 @@ padding-bottom: 50px;
 background-color: #2F303A;
 padding: 60px 0;
 display: flex;
+justify-content: start;
 }
-
 .container-footer{
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-   }
-
-.footer-title{
-    display: block;
-    font-family: Roboto;
+    width: 300px;
+    margin: 0 0; 
+}
+.container-social{
+    width: 300px;
+    margin-left: 70px;
+}
+.social-title{
+     font-family: Roboto;
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
@@ -424,15 +457,37 @@ line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color:var(--second-title-color);
+margin-bottom: 20px;
 }
 .social-footer-list{
+    display: flex;
+}
+.social-footer-item{ 
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    }
+    .social-footer-item:focus,
+    .social-footer-item:hover{
+        background-color: var(--accent-color);
+    }
+.social-footer-item + .social-footer-item{
+        margin-left: 10px;
+}
+.social-footer-link{
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.social-footer-item + .social-footer-item{
-    margin-left: 30px;
+.social-footer-icon{
+    width: 20px;
+    height: 20px;
+    fill: var(--second-title-color);
 }
+
 .footer-text{
 font-family: Roboto;
 font-style: normal;
@@ -446,7 +501,6 @@ color: var(--second-title-color);
 .footer-logo{
     margin-bottom: 20px;   
 }
-
 .addres-item, .contact-item{
     padding-bottom: 9px;
    }
@@ -487,7 +541,6 @@ color: var(--accent-color)
     justify-content: center;
     margin-bottom: 50px;
 }
-
 .btn-text {
 font-weight: 500;
 font-size: 16px;
@@ -508,6 +561,8 @@ font-size: 16px;
 line-height: 1.62;
 letter-spacing: 0.03em;
 color: var(--second-title-color);
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
 }
 
 .project-title {
@@ -545,4 +600,12 @@ padding-bottom: 20px;
     width: calc((100% - 60px) / 3);
     margin-bottom: 30px;
     border: 1px solid #EEEEEE;
+    }
+.project-item:hover{
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+
+    
